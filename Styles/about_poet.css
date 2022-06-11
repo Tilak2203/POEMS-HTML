@@ -1,0 +1,70 @@
+header{
+  padding:20px;
+  background-color: chocolate;
+}
+header h1{
+  font-size: 250%;
+  color:whitesmoke;
+  text-align: center;
+  font-family: cursive;
+  text-decoration:underline;
+}
+header p{
+  padding:0px;
+  text-align: center;
+  margin:0px;
+  text-indent: 10px;
+  font-size:15px;
+}
+nav {
+  padding: 20px;
+  background-color:rgb(56, 56, 56);
+}
+nav a {
+  color:white;
+  padding:20px;
+  text-align: center;
+  text-decoration: none;
+}
+nav a:hover{
+  color:tomato;
+}
+
+section h2{
+  padding:20px;
+  text-align: center;
+  font-size: 200%;
+  text-decoration: underline;
+}
+.socialWrap {
+  /* padding:5px; */
+  display: flex;
+  justify-content: center;
+}
+.socialWrap a {
+  margin-right: 5px;
+}
+
+.intro{
+  padding:25px;
+  font-family: cursive;
+  color:black;
+  border-style: solid;
+  border-color:red;
+}
+
+
+
+
+footer {
+  padding: 15px;
+  background-color: chocolate
+  
+}
+footer p {
+  
+  text-align: center;
+  color:white;
+  font-style: italic;
+  font-weight: bold;
+}

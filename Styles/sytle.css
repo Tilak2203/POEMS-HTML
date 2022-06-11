@@ -1,0 +1,73 @@
+header{
+  padding:20px;
+  background-color: chocolate;
+  margin:0px;
+}
+header h1{
+  font-size: 250%;
+  color:whitesmoke;
+  text-align: center;
+  font-family: cursive;
+  text-decoration:underline;
+}
+header p{
+  padding:0px;
+  text-align: center;
+  margin:0px;
+  text-indent: 10px;
+  font-size:15px;
+}
+nav {
+  padding: 20px;
+  background-color:rgb(56, 56, 56);
+}
+nav a {
+  color:white;
+  padding:20px;
+  text-align: center;
+  text-decoration: none;
+}
+nav a:hover{
+  color:tomato;
+} 
+main{
+  background-color: black;
+}
+.poem_head {
+  padding:10px;
+  color:red;
+  text-decoration:underline;
+  text-indent: 58px;
+  font-size: 130%;  
+  font-family:cursive;
+}
+
+li{
+  padding:15px;
+  text-indent: 3px;
+}
+li a{
+  
+  text-decoration: none;
+  font-size: 150%;
+  line-height: 1;
+  font-weight: bold;
+  font-family:cursive;
+}
+ul{
+  list-style-position: inside;
+  list-style-type:square;
+  color:brown;
+}
+
+
+footer {
+  padding: 15px;
+  background-color: chocolate
+}
+footer p {
+  text-align: center;
+  color:white;
+  font-style: italic;
+  font-weight: bold;
+}
