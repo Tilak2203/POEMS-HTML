@@ -1,6 +1,10 @@
+*{
+  margin:0;
+}
 header{
-  padding:20px;
+  padding:30px;
   background-color: chocolate;
+  margin:0px;
 }
 header h1{
   font-size: 250%;
@@ -15,6 +19,7 @@ header p{
   margin:0px;
   text-indent: 10px;
   font-size:15px;
+  color:rgba(21, 21, 105, 0.84);
 }
 nav {
   padding: 20px;
@@ -46,23 +51,20 @@ section h2{
 }
 
 .intro{
+  margin: 20px;
   padding:25px;
   font-family: cursive;
   color:black;
   border-style: solid;
   border-color:red;
 }
-
-
-
-
 footer {
   padding: 15px;
   background-color: chocolate
   
 }
 footer p {
-  
+  line-height: 2;
   text-align: center;
   color:white;
   font-style: italic;

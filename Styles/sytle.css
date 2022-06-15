@@ -1,5 +1,8 @@
+*{
+  margin:0;
+}
 header{
-  padding:20px;
+  padding:30px;
   background-color: chocolate;
   margin:0px;
 }
@@ -16,6 +19,7 @@ header p{
   margin:0px;
   text-indent: 10px;
   font-size:15px;
+  color:rgba(21, 21, 105, 0.84);
 }
 nav {
   padding: 20px;
@@ -63,9 +67,10 @@ ul{
 
 footer {
   padding: 15px;
-  background-color: chocolate
+  background-color: chocolate;
 }
 footer p {
+  line-height: 2;
   text-align: center;
   color:white;
   font-style: italic;
