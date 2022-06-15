@@ -79,7 +79,7 @@ footer p {
 
 /* Starting with media query */
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (orientation: portrait) {
   header h1{
     font-size: 200%;
     color:whitesmoke;
@@ -125,7 +125,7 @@ footer p {
     font-size:13px;
   }
 }
-@media screen and (min-width:375px ) and (max-width:768px) {
+@media screen and (min-width:375px ) and (max-width:768px) and (orientation:portrait) {
   header h1{
     font-size: 150%;
   }
