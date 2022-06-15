@@ -38,10 +38,10 @@ main{
   background-color: black;
 }
 .poem_head {
-  padding:10px;
+  padding-left:70px;
+  padding-bottom: 20px;
   color:red;
   text-decoration:underline;
-  text-indent: 58px;
   font-size: 130%;  
   font-family:cursive;
 }
@@ -75,4 +75,94 @@ footer p {
   color:white;
   font-style: italic;
   font-weight: bold;
+}
+
+/* Starting with media query */
+
+@media screen and (max-width:768px) {
+  header h1{
+    font-size: 200%;
+    color:whitesmoke;
+    text-align: center;
+    font-family: cursive;
+    text-decoration:underline;
+  }
+  header p{
+    padding:0px;
+    text-align: center;
+    margin:0px;
+    text-indent: 10px;
+    font-size:10px;
+    color:rgba(21, 21, 105, 0.84);
+  }
+  nav {
+    padding: 15px;
+    background-color:rgb(56, 56, 56);
+  }
+  nav a {
+    color:white;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+    font-size:12px;
+  }
+  .poem_head {
+    padding: 7px;
+    color:red;
+    text-decoration:underline;
+    font-size: 100%;  
+    font-family:cursive;
+    text-align: left;
+  }
+  li a{
+    font-size:120%;
+  }
+  footer {
+    padding: 10px;
+    background-color: chocolate;
+  }
+  footer p {
+    font-size:13px;
+  }
+}
+@media screen and (min-width:375px ) and (max-width:768px) {
+  header h1{
+    font-size: 150%;
+  }
+  header p{
+    font-size:10px;
+  }
+  nav {
+    padding: 10px;
+    background-color:rgb(56, 56, 56);
+  }
+  nav a {
+    color:white;
+    padding:20px;
+    text-align: center;
+    text-decoration: none;
+    font-size:10px;
+  }
+  nav a:hover{
+    color:tomato;
+  } 
+  .poem_head {
+    font-size: 80%;  
+    padding-left:40px;
+    padding-right: 20px;
+    /* text-align: center;  */
+  }
+  ul{
+    padding-left:10px;
+  }
+  li a{
+    font-size:11s0%;
+  }
+  footer {
+    padding-left: 30px;
+    background-color: chocolate;
+  }
+  footer p {
+    font-size:13px;
+  }
 }
